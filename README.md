@@ -1,7 +1,7 @@
 theme-binary
 ============
 
-A two tones theme with serif typography.
+A two tones theme with serif typography. ???
 
 ## Getting Started
 
