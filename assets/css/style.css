@@ -2355,7 +2355,8 @@ body {
   font-family: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
-  background-color: #f3f0eb;
+/*  background-color: #f3f0eb;*/
+ background-color: #243B0B;
 }
 /**
  * Global
