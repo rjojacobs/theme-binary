@@ -2319,6 +2319,7 @@ ul.icons-ul > li .icon-li {
     padding-left: 0;
   }
 }
+/*@bodyBackgroundColor : #F3F0EB;*/
 /* ====================== */
 /* Set viewport to device width for responsive view */
 @-webkit-viewport {
@@ -2355,8 +2356,7 @@ body {
   font-family: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
-/*  background-color: #f3f0eb;*/
- background-color: #0A2A22;
+  background-color: #0a2a22;
 }
 /**
  * Global
