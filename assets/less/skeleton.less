@@ -6,7 +6,7 @@
 @numColumns    : 16;
 
 // Desktop
-@columnDesktop : 40px; // used for everything above 59.938rem width, 40px
+@columnDesktop : 60px; // used for everything above 59.938rem width, 40px
 @gutterDesktop : 20px; // used for everything above 59.938rem width, 28px
 @gutterHalfDesktop : (@gutterDesktop / 2);
 
@@ -104,7 +104,8 @@
 // ==================================================
 // Note: Design for a width of 48em
 
-@media only screen and (max-width: 59.938em) and (min-width: 48em) {
+//@media only screen and (max-width: 59.938em) and (min-width: 48em) {
+@media only screen and (max-width: 79.938em) and (min-width: 48em) {
     // Base Grid
     .container {
         .width((@column + @gutter) * @numColumns);
