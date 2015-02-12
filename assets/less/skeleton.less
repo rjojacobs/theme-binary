@@ -15,7 +15,7 @@
 @columnMathDesktop : (@offsetMathDesktop * (@numColumns - 1));
 
 // Non-Mobile (in between dekstop and mobile)
-@column        : 35px; // used for everything else, 20px  - Changed from 28px - RJ 150212
+@column        : 42px; // used for everything else, 20px  - Changed from 28px - RJ 150212
 @gutter        : 20px; // used for everything else, 28px
 @gutterHalf    : (@gutter / 2);
 
@@ -106,7 +106,7 @@
 // Note: Design for a width of 48em
 
 //@media only screen and (max-width: 59.938em) and (min-width: 48em) {
-@media only screen and (max-width: 79.938em) and (min-width: 55em) {   // - replaced above - RJ 150212
+@media only screen and (max-width: 79.938em) and (min-width: 62em) {   // - replaced above - RJ 150212
     // Base Grid
     .container {
         .width((@column + @gutter) * @numColumns);
@@ -169,7 +169,7 @@
 // ==================================================
 
 //@media only screen and (max-width: 47.938em) and (min-width: 30em) {
-@media only screen and (max-width: 55em) and (min-width: 30em) { //- Replaced from above - RJ 150212
+@media only screen and (max-width: 62em) and (min-width: 30em) { //- Replaced from above - RJ 150212
     .container{
         .width(@mobileLandscapeWidth);
         // width: 94%;
@@ -212,7 +212,7 @@
 // ==================================================
 
 //@media only screen and (max-width: 47.938em) {
-@media only screen and (max-width: 55em) { //Replaced above - RJ 150212
+@media only screen and (max-width: 62em) { //Replaced above - RJ 150212
     .container {
         // .width(@mobilePortraitWidth);
         width: 90%;
